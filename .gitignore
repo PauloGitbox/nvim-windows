@@ -1,0 +1,7 @@
+# .gitignore
+nvim-data/log
+nvim-data/transparent_cache
+nvim-data/.netrwhist
+nvim-data/swap/
+nvim-data/shada/
+nvim-data/backup/
