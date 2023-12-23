@@ -1,4 +1,4 @@
-"Bek Brace @ 30.11.2022
+"PauloGitbox @ 23.12.2023
 :set relativenumber
 :set number
 :set autoindent
@@ -7,8 +7,10 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set scrolloff=10
 nnoremap <Space> <Nop>
 let mapleader = "\<Space>"
+
 
 call plug#begin()
 
@@ -33,7 +35,7 @@ Plug 'mbbill/undotree' " Undo tree
 "Auto-completion  For Javascript
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
 
-let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']  " list of CoC extensions needed
+let g:coc_global_extensions = ['coc-pyright', 'coc-python', 'coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']  " list of CoC extensions needed
 
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 
