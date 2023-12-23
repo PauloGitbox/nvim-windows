@@ -23,11 +23,11 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/rstacruz/vim-closer' " For brackets autocompletion
-Plug 'https://github.com/catppuccin/nvim' 
-Plug 'https://github.com/folke/tokyonight.nvim'
-Plug 'https://github.com/xiyaowong/transparent.nvim'
+Plug 'https://github.com/catppuccin/nvim' " theme 
+Plug 'https://github.com/folke/tokyonight.nvim' "theme
+Plug 'https://github.com/xiyaowong/transparent.nvim' "theme
 
-" Auto-completion  For Javascript
+"Auto-completion  For Javascript
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting
 
 let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier']  " list of CoC extensions needed
@@ -57,7 +57,7 @@ nmap <F8> :TagbarToggle<CR>
 :colorscheme catppuccin
 
 if has('nvim')
-    set guifont=B612\ Mono:h9.5
+    set guifont=FiraCode\ Nerd\ Font\ Mono\:h12
 endif
 
 let g:NERDTreeDirArrowExpandable="+"
