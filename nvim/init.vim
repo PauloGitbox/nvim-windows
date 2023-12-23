@@ -7,6 +7,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+vnoremap <leader>a ggVG
 
 call plug#begin()
 
