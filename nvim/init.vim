@@ -7,7 +7,8 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
-vnoremap <leader>a ggVG
+nnoremap <Space> <Nop>
+let mapleader = "\<Space>"
 
 call plug#begin()
 
@@ -25,8 +26,9 @@ Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
 Plug 'https://github.com/rstacruz/vim-closer' " For brackets autocompletion
 Plug 'https://github.com/catppuccin/nvim' " theme 
-Plug 'https://github.com/folke/tokyonight.nvim' "theme
-Plug 'https://github.com/xiyaowong/transparent.nvim' "theme
+Plug 'https://github.com/folke/tokyonight.nvim' " theme
+Plug 'https://github.com/xiyaowong/transparent.nvim' " theme
+Plug 'mbbill/undotree' " Undo tree
 
 "Auto-completion  For Javascript
 Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'} " this is for auto complete, prettier and tslinting

@@ -19,9 +19,15 @@ inoremap <C-x> "x
 nnoremap <C-a> ggVG
 vnoremap <C-a> ggVG
 inoremap <C-a> ggVG
+inoremap <C-a> <C-\><C-n>ggVG
 
 " delete text backspace
 vnoremap <BS> d
 nnoremap <BS> d
 inoremap <BS> d
 
+" leader REMAPS
+nnoremap <leader>pv :vertical Lexplore<CR>
+
+" Undo Tree
+nnoremap <leader>u :UndotreeToggle<CR>
